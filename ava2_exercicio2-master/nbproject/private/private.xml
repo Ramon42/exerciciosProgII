@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/src/banco/conta.sql</file>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/test/banco/impl/JdbcContaRepositoryTest.java</file>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/src/banco/Conexao.java</file>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/src/banco/ContaRepository.java</file>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/src/modelo/Correntista.java</file>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/src/banco/impl/JdbcContaRepository.java</file>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/src/modelo/Conta.java</file>
+            <file>file:/C:/Users/ramon/Desktop/ava2_exercicio2-master/src/modelo/Gerente.java</file>
+        </group>
+    </open-files>
+</project-private>
