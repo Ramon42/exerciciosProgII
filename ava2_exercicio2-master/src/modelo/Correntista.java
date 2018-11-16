@@ -15,11 +15,11 @@ public class Correntista {
      * @return o valor sacado
      */
     public float sacar(Float valor){
-        if(valor < conta.getSaldo()){
-            conta.setSaldo(conta.getSaldo() - valor);
-            return conta.getSaldo();
+        if(valor < this.conta.getSaldo()){
+            this.conta.setSaldo(this.conta.getSaldo() - valor);
+            return this.conta.getSaldo();
         }
-        return 0;
+        return -1;
     }
     
     /**
@@ -27,7 +27,7 @@ public class Correntista {
      * @param valor
      */
     public void depositar(float valor){
-        conta.setSaldo(conta.getSaldo() + valor);
+        this.conta.setSaldo(this.conta.getSaldo() + valor);
     }
     
     /**
@@ -35,6 +35,14 @@ public class Correntista {
      * @return 
      */
     public float consultarSaldo(){
-        return conta.getSaldo();
+        return this.conta.getSaldo();
     }
+    
+    public Conta getConta(){
+        return this.conta;
+    }
+    public void setConta(Conta cont){
+        this.conta = cont;
+    }
+    
 }
